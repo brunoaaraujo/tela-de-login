@@ -2,4 +2,133 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-image: url(./assets/image-login.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.container {
+    width: 350px;
+    height: 350px;
+    border: .5px solid #2f3640;
+    background-color: rgba(255, 127, 80, .5);
+    color: white;
+    text-align: center;
+    padding: 20px 5px;
+    border-radius: 20px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, .7);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.user {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.password {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.email {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #dfe4ea;
+    margin: 5px 0 10px 0;
+}
+
+.senha {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #dfe4ea;
+    margin: 5px 0 10px 0;
+}
+
+label {
+    font-size: 14px;
+}
+
+#lebrar-email {
+    margin: 5px 0 10px 10px;
+}
+
+.forgot-password {
+    font-size: 14px;
+    text-decoration: none;
+    color: #f1f2f6;
+}
+
+.log-in {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    background-color: #dfe4ea;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.log-in:hover {
+    opacity: .7;
+    transition: 0.5s;
+}
+
+.sign-up {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    background-color: #dfe4ea;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    opacity: .7;
+    transition: 0.5s;
+}
+
+input::placeholder {
+    text-align: center;
+    opacity: .5;
+}
+
+footer {
+    display: block;
 }

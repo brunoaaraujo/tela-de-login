@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icons/login-icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <title>Log In</title>
 </head>
+
 <body>
-    
+    <main>
+        <section class="container">
+            <h1>Log In</h1>
+            <form>
+                <label class="user">User name:</label><br>
+                <input class="email" type="email" placeholder="Digite seu E-mail" required><br>
+
+                <label class="password">Password:</label><br>
+                <input class="senha" type="password" placeholder="Senha" required><br>
+
+                <label>
+                    <input type="checkbox" name="Lembrar e-mail" id="lebrar-email">
+                    Remember password
+                </label><br>
+
+                <a class="forgot-password" href="https://www.google.com.br" target="_blank">Forgot password?</a><br>
+
+                <a class="log-in" href="./pagesignup.html">Sign In</a>
+                <a class="sign-up" href="./pageregister.html">Register</a>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dev Bruno Alvarenga. Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
