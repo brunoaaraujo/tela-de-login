@@ -29,4 +29,5 @@ Demonstrar habilidades em **desenvolvimento front-end puro**, com foco na criaç
 
 ![Pagina Inicial](https://github.com/user-attachments/assets/2ebd1238-b9b4-4109-9a8e-1db0e08f7217)
 ![Pagina Logada](https://github.com/user-attachments/assets/ee0bc524-dc3c-4ae3-a54b-bd890321efa5)
-![Pagina Criar Usuario](https://github.com/user-attachments/assets/3e616ed0-ec3c-47e8-864a-2dc654ef80cf)
+![Pagina Criar Usuario](https://github.com/user-attachments/assets/532d40ca-2b00-4107-8db7-42cb35b576b5)
+
